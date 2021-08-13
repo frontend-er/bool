@@ -1,0 +1,24 @@
+// Main path of scss files
+// Imports for all project is collected here
+@import "_default";
+@import "_header";
+@import "_projects";
+@import "_history";
+@import "_askForm";
+@import "_footer";
+@import "_slick";
+@import "_headerProject";
+@import "_headerTeam";
+@import "_headerDonation";
+
+
+
+$font-DM: 'DM Serif Display', serif;
+$font-R: 'Roboto Slab', serif;
+
+
+
+body.lock {
+  position: fixed;
+  overflow: hidden;
+}
